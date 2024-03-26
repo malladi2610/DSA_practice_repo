@@ -36,11 +36,19 @@ https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2
 - **Day 25**  [16-03-2024] - [Leet_code] -> Finsihed solving the previous problem and solved a paliandrome check problem too
 - **Day 26**  [17-03-2024] - [Leet_code] -> Solving another type of paliandrome problem but for the long strings and done recurcively
 - **Day 27**  [18-03-2024] - Starting with hashing
-- **Day 28**  [19-03-2024] - 
+- **Day 28**  [19-03-2024] - Continied with hashing learnt about character hashing and problem in number hashing
+- Day 29      [20-03-2024] - Didn't do anything
+- **Day 30**  [21-03-2024] - Finished the hashs
+- **Day 31**  [22-03-2024] - Wrote the algorithm for the max_frequency problem
+- Day 32      [23-03-2024] - Did nothing
+- Day 33      [24-03-2024] - Did nothing
+- **Day 34**  [25-03-2024] - Finished the one problemn related to the hashmaps in leetcode
+- **Day 35**  [26-03-2024] - Solve the highest and lowest frequency hashs problem (Finished with hashing)
 
 
 
-# Leet code problems solved
-1. Problem from arrays [a. Container with water, b. 3Sum, c. Twosum]
+
+<!-- # Leet code problems solved
+1. Problem from arrays [a. Container with water, b. 3Sum, c. Twosum, d. Max_frequency ] -->
 
 

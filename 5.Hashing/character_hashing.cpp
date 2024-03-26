@@ -1,3 +1,7 @@
+/*
+1. IN case of the range of the characters specified as the smaller letters from the alphabet series then to add the data to the hash the substraction needs to be done to add the letter's frequency to the correct position
+2. If there are capital letters from the alphabet series then there is no need to do the substraction as the entire range of the ASCII would be considered*/
+
 #include<iostream>
 #include<bits/stdc++.h>
 using namespace std;
