@@ -45,6 +45,7 @@ https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2
 - **Day 34**  [25-03-2024] - Finished the one problemn related to the hashmaps in leetcode
 - **Day 35**  [26-03-2024] - Solve the highest and lowest frequency hashs problem (Finished with hashing)
 - **Day 36**  [27-03-2024] - Started with the sorting(Learnt selection sort) and Tried to setup a Competitive programming type interface
+- **Day 37**  [28-03-2024] - Started with the longest substring comparison in the leetcode.
 
 
 
