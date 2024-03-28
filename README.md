@@ -7,7 +7,7 @@ https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2
 
 #100_Days_time_line [31-05-2024]
 
-**Effective Performace rate: No.of Done days/Total No.of days = 50%** [Lastupdated : 05-03-2024]
+**Effective Performace rate: No.of Done days/Total No.of days = 73%** [Lastupdated : 28-03-2024]
 
 - **Day 1**   [21-02-2024] - Solved the problem 1
 - Day 2       [22-02-2024] - Done Nothing
@@ -45,7 +45,8 @@ https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2
 - **Day 34**  [25-03-2024] - Finished the one problemn related to the hashmaps in leetcode
 - **Day 35**  [26-03-2024] - Solve the highest and lowest frequency hashs problem (Finished with hashing)
 - **Day 36**  [27-03-2024] - Started with the sorting(Learnt selection sort) and Tried to setup a Competitive programming type interface
-- **Day 37**  [28-03-2024] - Started with the longest substring comparison in the leetcode.
+- **Day 37**  [28-03-2024] - Worked on some setup of the VSCode like a CP environment
+- **Day 38**  [29-03-2024] - Solved with the longest substring comparison in the leetcode.
 
 
 
