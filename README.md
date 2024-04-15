@@ -49,6 +49,22 @@ https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2
 - **Day 38**  [29-03-2024] - Understood with the longest substring comparison in the leetcode.
 - **Day 39**  [30-03-2024] - Didn't do anything
 - **Day 40**  [31-03-2024] - Continued solving the substring problem
+- **Day 41**  [01-04-2024] - Solved the problem
+- Day 42      [02-04-2024] - Nothing done
+- Day 43    
+- Day 44
+- **Day 45**  [05-04-2024] - Worked on sorting
+- Day 46      [06-04-2024]
+- Day 47
+- Day 48
+- Day 49
+- Day 50
+- **Day 51**  [11-04-2024] - Finished part 1 of sorting
+- Day 52
+- Day 53
+- Day 54
+- **Day 55**      [15-4-2024]  - C++ code for the insertion sort
+- Day 56
 
 
 
