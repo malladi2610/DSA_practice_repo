@@ -63,8 +63,8 @@ https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2
 - Day 52
 - Day 53
 - Day 54
-- **Day 55**      [15-4-2024]  - C++ code for the selection sort
-- Day 56
+- **Day 55**  [15-04-2024]  - C++ code for the selection sort
+- **Day 56**  [16-04-2024]  - C++ code for the bubble sort
 
 
 
