@@ -7,7 +7,7 @@ https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2
 
 #100_Days_time_line [31-05-2024]
 
-**Effective Performace rate: No.of Done days/Total No.of days = 73%** [Lastupdated : 28-03-2024]
+**Effective Performace rate: No.of Done days/Total No.of days = 58%** [Lastupdated : 07-05-2024]
 
 - **Day 1**   [21-02-2024] - Solved the problem 1
 - Day 2       [22-02-2024] - Done Nothing
@@ -65,6 +65,28 @@ https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2
 - Day 54
 - **Day 55**  [15-04-2024]  - C++ code for the selection sort
 - **Day 56**  [16-04-2024]  - C++ code for the bubble sort
+- Day 57
+- Day 58
+- Day 59
+- Day 60
+- Day 61
+- Day 62
+- Day 62
+- Day 62
+- Day 62
+- Day 62
+- Day 62
+- Day 62
+- Day 62
+- Day 62
+- Day 62
+- Day 62
+- Day 62
+- Day 62
+- Day 62
+- Day 62
+- Day 62
+- **Day 62**  [16-04-2024]  - Restarting the Sorting after exams
 
 
 
