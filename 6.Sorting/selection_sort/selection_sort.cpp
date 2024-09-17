@@ -6,7 +6,7 @@ using namespace std;
 int selection_sort(int n, int arr[]){
     
     for(int i = 0; i<=n-2; i++){
-        int mme = i;
+        int mme = i; //This is the minimum element index
         for(int j = i; j<=n-1; j++){
             if(arr[j] < arr[i]){
                 int temp = arr[i];

@@ -71,22 +71,57 @@ https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2
 - Day 60
 - Day 61
 - Day 62
-- Day 62
-- Day 62
-- Day 62
-- Day 62
-- Day 62
-- Day 62
-- Day 62
-- Day 62
-- Day 62
-- Day 62
-- Day 62
-- Day 62
-- Day 62
-- Day 62
-- Day 62
-- **Day 62**  [16-04-2024]  - Restarting the Sorting after exams
+- Day 63
+- Day 64
+- Day 65
+- Day 66
+- Day 67
+- Day 68
+- Day 69
+- Day 70
+- Day - Entire month not done anything and 1st july
+- Day 71
+- Day 72
+- Day 73
+- Day 74
+- Day 75
+- Day 76
+- Day 77
+- **Day 78**  [09-07-2024]  - Restarting the Sorting after exams(No important progress)
+- Day 79
+- Day 80
+- Day 81
+- **Day 82**  [13-07-2024] - Starting with the sorting 2 (Merge sort)
+- Day 
+- **Day 90**    [21-07-2024] - Restared the DSA again
+- **Day 91**    [22-07-2024] - Solved the merge sort problem
+- **Day 92**    [23-07-2024] - Solved the problem 1 (easy) of arrays
+- **Day 93**    [25-07-2024] - Solved the problem 2 (easy)
+- **Day 94**    [26-07-2024] - Solved the problem 3 and started problem 4 (easy)
+- **Day 95**    [28-07-2024] - (Revision) 
+<details>
+<summary>Not done 😅</summary>
+<ul>
+<li> Day 96</li> 
+<li> Day 97</li>
+<li> Day 98</li> 
+<li> Day 99</li>
+<li> Day 100</li>
+<li> Day 101</li>
+<li> Day 102</li>
+<li> Day 103</li>
+<li> Day 104</li>
+<li> Day 105</li>
+</ul>
+</details>
+- **Day 106**    [08-08-2024] - Remove duplicate elements problem (easy)
+- **Day 129**    [03-09-2024] - Started with check if the array is sorted or not 
+- **Day 137**    [11-09-2024] - Solved the left rotate an array by one place
+- **Day 138**    [12-09-2024] - Solved the right rotate an array by one place
+- **Day 139**    [13-09-2024] - Solved the shifting of only zeros to the last place
+- **Day 141**    [15-09-2024] - Revised the last week problems
+- **Day 143**    [17-09-2024] - New week (38), Started with the new problems
+
 
 
 
@@ -94,5 +129,9 @@ https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2
 
 <!-- # Leet code problems solved
 1. Problem from arrays [a. Container with water, b. 3Sum, c. Twosum, d. Max_frequency ] -->
+
+<!-- The secret command for my terminal
+g++ -o problem_<number>.exe problem_<number>.cpp -->
+
 
 

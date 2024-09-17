@@ -10,15 +10,15 @@ int main(){
 
     for(int i = 1;i<n; i++){
         if(i == 1){
-            cout<<t1<<" , ";
+            cout<<t1;
         }
         if(i == 2){
-            cout<<t2<<" , ";
+            cout<<t2;
         }
         nextterm = t1 + t2;
         t1 = t2;
         t2 = nextterm;
-        cout<<nextterm<<" , "; 
+        cout<<nextterm; 
     }
 
 }
