@@ -65,40 +65,58 @@ https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2
 - Day 54
 - **Day 55**  [15-04-2024]  - C++ code for the selection sort
 - **Day 56**  [16-04-2024]  - C++ code for the bubble sort
-- Day 57
-- Day 58
-- Day 59
-- Day 60
-- Day 61
-- Day 62
-- Day 63
-- Day 64
-- Day 65
-- Day 66
-- Day 67
-- Day 68
-- Day 69
-- Day 70
-- Day - Entire month not done anything and 1st july
-- Day 71
-- Day 72
-- Day 73
-- Day 74
-- Day 75
-- Day 76
-- Day 77
+<details>
+<summary>Not done 😅</summary>
+<ul>
+<li> - Day 57 </li>
+<li> - Day 58 </li>
+<li> - Day 59 </li>
+<li> - Day 60 </li>
+<li> - Day 61 </li>
+<li> - Day 62 </li>
+<li> - Day 63 </li>
+<li> - Day 64 </li>
+<li> - Day 65 </li>
+<li> - Day 66 </li>
+<li> - Day 67 </li>
+<li> - Day 68 </li>
+<li> - Day 69 </li>
+<li> - Day 70 </li>
+<li>- Day - Entire month not done anything and 1st july </li>
+<li>- Day 71 </li> 
+<li>- Day 72 </li>
+<li>- Day 73 </li>
+<li>- Day 74 </li>
+<li>- Day 75 </li>
+<li>- Day 76 </li>
+<li>- Day 77 </li>
+</ul>
+</details>
+
 - **Day 78**  [09-07-2024]  - Restarting the Sorting after exams(No important progress)
-- Day 79
-- Day 80
-- Day 81
+<details>
+<summary>Not done 😅</summary>
+<ul>
+<li>Day 79</li>
+<li>Day 80</li>
+<li>Day 81</li>
+</ul>
+ </details>
+
 - **Day 82**  [13-07-2024] - Starting with the sorting 2 (Merge sort)
-- Day 
+
+<details>
+<summary>Not done 😅</summary>
+<ul><li> Day 83 - 90</li> </ul> 
+ </details>
+
 - **Day 90**    [21-07-2024] - Restared the DSA again
 - **Day 91**    [22-07-2024] - Solved the merge sort problem
 - **Day 92**    [23-07-2024] - Solved the problem 1 (easy) of arrays
 - **Day 93**    [25-07-2024] - Solved the problem 2 (easy)
 - **Day 94**    [26-07-2024] - Solved the problem 3 and started problem 4 (easy)
 - **Day 95**    [28-07-2024] - (Revision) 
+
 <details>
 <summary>Not done 😅</summary>
 <ul>
@@ -114,6 +132,7 @@ https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2
 <li> Day 105</li>
 </ul>
 </details>
+
 - **Day 106**    [08-08-2024] - Remove duplicate elements problem (easy)
 - **Day 129**    [03-09-2024] - Started with check if the array is sorted or not 
 - **Day 137**    [11-09-2024] - Solved the left rotate an array by one place
@@ -123,6 +142,12 @@ https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2
 - **Day 143**    [17-09-2024] - New week (38), Started with the new problems
 - **Day 145**    [19-09-2024] - Finish the find union
 - **Day 149**    [23-09-2024] - Finish the missing number in a array
+
+<details>
+<summary>Not done 😅</summary>
+<ul>
+<li> Day 150 - Day 157 </li>
+</ul>
 
 
 
