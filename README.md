@@ -121,6 +121,8 @@ https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2
 - **Day 139**    [13-09-2024] - Solved the shifting of only zeros to the last place
 - **Day 141**    [15-09-2024] - Revised the last week problems
 - **Day 143**    [17-09-2024] - New week (38), Started with the new problems
+- **Day 145**    [19-09-2024] - Finish the find union
+- **Day 149**    [23-09-2024] - Finish the missing number in a array
 
 
 
