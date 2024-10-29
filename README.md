@@ -150,6 +150,8 @@ https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2
 </ul>
 
 - **Day 158**    [30-09-2024] - Found another implementation of the missing number in a array
+- Day 158 - 159
+- **Day 160**    [03-10-2024] - 
 
 
 
