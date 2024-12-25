@@ -3,13 +3,21 @@
 using namespace std;
 
 int consecutive_ones(vector<int> &nums){
-    int cons = 0;
+    vector<int> counter_storage;
     int counter = 0;
 
-    if(nums.size() == 1 && nums[0==1]){
-        cout<<"The maximum consecutive ones = "<<cons+1;
+    if(nums.size() == 1 ){
+        if(nums[0] ==1){
+        cout<<"The maximum consecutive ones = "<<counter+1;
         return 0;
+        }
+
+        else{
+        cout<<"The maximum consecutive ones = "<<0;
+        return 0;
+         }
     }
+    
 
 
     for(int i = 0; i<nums.size(); i++){
@@ -18,12 +26,13 @@ int consecutive_ones(vector<int> &nums){
             counter += 1;
         }
         else{
-            cons = counter;
+            counter_storage.push_back(counter);
             counter = 0;
         }
     }
-    cons = counter;
-    cout<<"The maximun consecutive ones = "<<cons;
+    counter_storage.push_back(counter);
+    counter = *max_element(counter_storage.begin(), counter_storage.end());
+    cout<<"The maximun consecutive ones = "<<counter<<endl;
     return 0;
 
 }

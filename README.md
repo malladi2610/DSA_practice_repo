@@ -152,6 +152,15 @@ https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2
 - **Day 158**    [30-09-2024] - Found another implementation of the missing number in a array
 - Day 158 - 159
 - **Day 160**    [03-10-2024] - 
+- **Day "I lost track of"** [07-12-2024] - Problem 12
+- **Day** [08-12-2024]  - Problem 13
+- **Day** [09-12-2024]  - Problem 14
+- **Day** [10-12-2024]  - Problem 15
+- **Day** [12-12-2024]  - Problem 16 - 2Sum & Problem 17 - Majority Element
+- **Day** [15-12-2024 & 21-12-2024]  - Nothing done
+- **Day** [22-12-2024]  - Problem 18 - 4 sum & Problem 19 - Kandane's Algorithm
+- **Day** [23-12-2024 - 24-12-2024] - Finishing all the backlogs and getting both the array and the difficult problems in the same page
+
 
 
 
@@ -163,6 +172,8 @@ https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2
 
 <!-- The secret command for my terminal
 g++ -o problem_<number>.exe problem_<number>.cpp -->
+
+<!-- Difficult problems from the interview taken from the striver in te difficult problem folder -->
 
 
 
