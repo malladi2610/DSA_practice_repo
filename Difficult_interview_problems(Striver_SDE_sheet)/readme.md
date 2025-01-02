@@ -106,4 +106,4 @@ You will give me problems to work on, and I will adhere strictly to these instru
 - [Date 25/12/24] - pow(r,n)
 - [Date 26/12/24] - Boyer-Moore Voting algorithm(Majority element (>n/2)) & Majority element (>n/3)
 - [Date  2/01/25](Code day) - Solved Search 2D Matrix, Kadane algorithm, Sum 4  
-- [Date  3/01/25](Write day)- 
+- [Date  3/01/25](Write day)- A new update to a newly named repo
