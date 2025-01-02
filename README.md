@@ -1,4 +1,4 @@
-# This is the followup of the Striver DSA sheet
+# This is the followup of the Striver A2Z DSA sheet
 
 https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/
 
@@ -160,6 +160,8 @@ https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2
 - **Day** [15-12-2024 & 21-12-2024]  - Nothing done
 - **Day** [22-12-2024]  - Problem 18 - 4 sum & Problem 19 - Kandane's Algorithm
 - **Day** [23-12-2024 - 24-12-2024] - Finishing all the backlogs and getting both the array and the difficult problems in the same page
+- **Date** [24-12-2024 - 1-1-2025] - Started making flash cards with algorithms and pseudocode for the difficult interview problems from Striver SDE sheet
+- **Date** [2-1-2025](Code day) - Solved Search 2D matrix and Print subarray in kadane algorithms.
 
 
 
