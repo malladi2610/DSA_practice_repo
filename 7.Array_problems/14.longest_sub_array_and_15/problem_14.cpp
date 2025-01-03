@@ -96,6 +96,7 @@ int longest_sub_array(vector<int> &arr, int k){
         }
     }
     
+    cout<<"The maximum length is :"<<max_length;
     return found ? max_length :0;
         
 }
