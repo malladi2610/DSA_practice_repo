@@ -162,6 +162,8 @@ https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2
 - **Day** [23-12-2024 - 24-12-2024] - Finishing all the backlogs and getting both the array and the difficult problems in the same page
 - **Date** [24-12-2024 - 1-1-2025] - Started making flash cards with algorithms and pseudocode for the difficult interview problems from Striver SDE sheet
 - **Date** [2-1-2025](Code day) - Solved Search 2D matrix and Print subarray in kadane algorithms.
+- **Date** [3-1-2025](Write day)- longest subarray with sum 0 & Grid unique path
+- **Date** [6-1-2025](Write day)- Reverse pairs and Longest consecutive numbers
 
 
 
