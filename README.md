@@ -164,6 +164,8 @@ https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2
 - **Date** [2-1-2025](Code day) - Solved Search 2D matrix and Print subarray in kadane algorithms.
 - **Date** [3-1-2025](Write day)- longest subarray with sum 0 & Grid unique path
 - **Date** [6-1-2025](Write day)- Reverse pairs and Longest consecutive numbers
+- **Date** [8-1-2025](Code day) - Solved all the backlog problems
+- **Date** [9-1-2025](Write day)- Finished all the array 3 and 4
 
 
 

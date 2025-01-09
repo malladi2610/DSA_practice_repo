@@ -109,3 +109,6 @@ You will give me problems to work on, and I will adhere strictly to these instru
 - [Date  3/01/25](Write day)- longest subarray with sum 0 & Grid unique path
 - [Date  4/01/25 & 5/01/25](Code & Practice day) - *Didn't do anything*
 - [Date  6/01/25](Write day)- Reverse pairs and Longest consecutive numbers
+- [Date  7/01/25](Code day) - *Didn't do anything*
+- [Date  8/01/25](Code day) - Solved Majority_n_3, power(x,n), grid_unique_path, reverse_pair
+- [Date  9/01/25](Write day) - Longest_substring_w_o_repetition, count_subarray_with_given_xor_k

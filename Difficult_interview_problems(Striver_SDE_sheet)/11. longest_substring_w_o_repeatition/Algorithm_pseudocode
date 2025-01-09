@@ -1,0 +1,34 @@
+# Algorithm
+
+## Input
+- A string \(s\)
+
+## Initialize
+1. Create a hash map `charIndex` to track the last seen index of each character.
+2. Set two pointers: `start = 0` and `maxLength = 0`.
+
+## Iterate Over the String
+1. For each character at index `end`:
+   - If the character is already in `charIndex` **and** its index is within the current window (`charIndex[char] >= start`):
+     - Move the `start` pointer to `charIndex[char] + 1`.
+   - Update the character's index in `charIndex` to the current `end`.
+   - Calculate the length of the current substring as `end - start + 1`.
+   - Update `maxLength` if the current length is greater.
+
+## Output
+- Return `maxLength`.
+
+# Pseudo code
+function longestSubstringWithoutRepeating(s):
+    charIndex ← empty hash map
+    start ← 0
+    maxLength ← 0
+
+    for end from 0 to s.length - 1:
+        if s[end] exists in charIndex and charIndex[s[end]] >= start:
+            start ← charIndex[s[end]] + 1
+
+        charIndex[s[end]] ← end
+        maxLength ← max(maxLength, end - start + 1)
+
+    return maxLength
