@@ -35,3 +35,4 @@ int main() {
     cout << "Length of longest consecutive sequence: " << longestConsecutive(nums) << endl;
     return 0;
 }
+   

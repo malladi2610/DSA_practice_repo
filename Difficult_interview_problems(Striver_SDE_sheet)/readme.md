@@ -112,3 +112,5 @@ You will give me problems to work on, and I will adhere strictly to these instru
 - [Date  7/01/25](Code day) - *Didn't do anything*
 - [Date  8/01/25](Code day) - Solved Majority_n_3, power(x,n), grid_unique_path, reverse_pair
 - [Date  9/01/25](Write day) - Longest_substring_w_o_repetition, count_subarray_with_given_xor_k
+- [Date  10,11,12] - *Didn't do anything*
+- [Date  13/01/25](Code day) - Solved two array problems

@@ -25,7 +25,7 @@ int countSubarraysWithXOR(vector<int>& A, int B) {
         // Update the frequency of prefixXOR
         freq[prefixXOR]++;
     }
-
+ 
     return count;
 }
 

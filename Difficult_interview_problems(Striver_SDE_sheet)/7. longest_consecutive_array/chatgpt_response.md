@@ -171,3 +171,116 @@ nums = [100, 4, 200, 1, 3, 2]
    - By focusing only on the starting points of sequences, we process each number in the array exactly once, achieving \( O(n) \) complexity.
 
 This approach is efficient and handles the given constraints effectively.
+
+
+# This problems has a better optimisation when the fo r loop traverses through the numset instead of nums to avoid the redundancy and duplicate elements 
+
+The provided code and the optimized solution are very similar in structure, but there is **one critical difference** that might be causing inefficiencies in your code, depending on how the input is processed. Let me break it down in a **1:1 comparison**.
+
+---
+
+### **Key Differences and Analysis**
+
+#### **1. Traversal of the Input Array**
+
+- **Your Code:**
+  ```cpp
+  for (int num : nums) {
+      if (numset.find(num - 1) == numset.end()) {
+          ...
+      }
+  }
+  ```
+  - You are iterating over the original array (`nums`) instead of iterating over the `unordered_set` (`numset`).
+
+- **My Code:**
+  ```cpp
+  for (int num : numset) {
+      if (numset.find(num - 1) == numset.end()) {
+          ...
+      }
+  }
+  ```
+  - Iterating over `numset` directly ensures that each unique number is processed only once. In your implementation, duplicate numbers in the array might trigger redundant checks, even though the hash set is used to detect sequence starts.
+
+---
+
+#### **Why It Matters:**
+1. **Duplicate Numbers in the Input:**
+   - If the input contains duplicate numbers (e.g., \( \text{nums} = [1, 2, 2, 3] \)), your implementation will check for sequences starting from duplicate values, even though those values are already covered.
+
+2. **Efficiency of Iteration:**
+   - Iterating over the `unordered_set` ensures \( O(n) \) complexity since the set contains only unique numbers.
+   - Iterating over `nums` might lead to redundant checks, increasing practical runtime.
+
+---
+
+#### **2. Debugging Overhead (`cout`)**
+
+- **Your Code:**
+  ```cpp
+  cout << "The max_length is" << max_length;
+  return max_length;
+  ```
+  - Printing debug information (`cout`) during large-scale operations can significantly slow down the program, especially for large inputs.
+
+- **My Code:**
+  ```cpp
+  return max_length;
+  ```
+  - Removed unnecessary `cout` statements for cleaner output. Debug prints should be used sparingly during competitive coding.
+
+---
+
+### **Key Optimization in My Code**
+
+#### Iterating Over the Set (`numset`)
+The primary optimization is iterating directly over the `unordered_set` instead of the original array. This guarantees:
+1. **Each Unique Number is Processed Once:** Eliminates redundant checks for duplicate numbers.
+2. **Performance Consistency:** The iteration over `numset` ensures \( O(n) \) runtime for distinct elements.
+
+---
+
+### **Fix for Your Code**
+
+Modify the loop to iterate over the set instead of the array:
+```cpp
+for (int num : numset) {
+    if (numset.find(num - 1) == numset.end()) {
+        int currentnum = num;
+        int currentlength = 1;
+
+        while (numset.find(currentnum + 1) != numset.end()) {
+            currentnum++;
+            currentlength++;
+        }
+
+        max_length = max(max_length, currentlength);
+    }
+}
+```
+
+---
+
+### **Testing the Fix**
+
+#### Input Example:
+```plaintext
+nums = [100, 4, 200, 1, 3, 2, 2, 2]
+```
+
+#### Execution:
+1. **Your Code:** Will process duplicates (`2` multiple times), causing unnecessary checks.
+2. **Optimized Code:** Processes each unique number exactly once.
+
+#### Output:
+Both solutions return the same result, but the optimized solution avoids redundant iterations and runs faster for large inputs.
+
+---
+
+### **Conclusion**
+The key difference is **how the loop iterates**:
+- **Your Code:** Iterates over `nums`, leading to redundant checks for duplicates.
+- **My Code:** Iterates over `numset`, ensuring each unique number is processed once.
+
+By modifying your loop to iterate over `numset`, your implementation will match the efficiency of the optimized solution.
