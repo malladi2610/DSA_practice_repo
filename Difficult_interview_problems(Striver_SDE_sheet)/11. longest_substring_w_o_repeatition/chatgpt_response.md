@@ -153,3 +153,124 @@ s = "abcabcbb"
 1. The **sliding window technique** ensures the substring being processed is always valid.
 2. The **hash map** provides constant-time lookups to detect repeated characters.
 3. This solution handles all constraints efficiently, including special cases like an empty string or all identical characters.
+
+
+
+
+# More detailed explanantion of the code
+
+Let’s break down the code step-by-step to understand how it works.
+
+---
+
+### **Goal**
+To find the **length of the longest substring** without repeating characters in the given string \( s \).
+
+---
+
+### **Key Variables**
+1. **`unordered_map<char, int> charIndex`:**
+   - Tracks the last seen index of each character.
+   - Key: Character in the string.
+   - Value: Index of the character in \( s \).
+
+2. **`int start = 0`:**
+   - Marks the starting index of the current substring being checked.
+
+3. **`int maxLength = 0`:**
+   - Tracks the maximum length of substrings without repeating characters.
+
+4. **Loop Variable `end`:**
+   - Iterates through the string \( s \), representing the current character.
+
+---
+
+### **How It Works**
+
+#### 1. **Outer Loop:**
+   ```cpp
+   for (int end = 0; end < s.length(); end++) {
+   ```
+   - The `end` pointer moves through each character in the string, representing the end of the current substring.
+
+---
+
+#### 2. **Check for Repeated Characters:**
+   ```cpp
+   if (charIndex.find(s[end]) != charIndex.end() && charIndex[s[end]] >= start) {
+       start = charIndex[s[end]] + 1;
+   }
+   ```
+   - **What This Does:**
+     - Checks if the character `s[end]` is already in `charIndex` (i.e., it has appeared before).
+     - Verifies if the last occurrence of `s[end]` is **within the current substring** (`charIndex[s[end]] >= start`).
+   - **If True:**
+     - Move the `start` pointer to the right of the last occurrence of the repeated character (`start = charIndex[s[end]] + 1`).
+   - **Why This Works:**
+     - This ensures the substring from `start` to `end` remains valid (i.e., no repeating characters).
+
+---
+
+#### 3. **Update `charIndex` Map:**
+   ```cpp
+   charIndex[s[end]] = end;
+   ```
+   - Records or updates the most recent index of the character `s[end]`.
+
+---
+
+#### 4. **Calculate Current Substring Length:**
+   ```cpp
+   maxLength = max(maxLength, end - start + 1);
+   ```
+   - Computes the length of the current substring as:
+     \[
+     \text{Length} = \text{end} - \text{start} + 1
+     \]
+   - Updates `maxLength` if the current substring is longer than the previous maximum.
+
+---
+
+### **Return the Result**
+   ```cpp
+   return maxLength;
+   ```
+   - Returns the length of the longest substring without repeating characters.
+
+---
+
+### **Example Walkthrough**
+
+#### Input:
+```plaintext
+s = "abcabcbb"
+```
+
+#### Execution:
+
+| Step | `end` | `s[end]` | `charIndex`              | `start` | Substring      | Length | `maxLength` |
+|------|-------|----------|--------------------------|---------|----------------|--------|-------------|
+| 1    | 0     | a        | {a: 0}                  | 0       | "a"            | 1      | 1           |
+| 2    | 1     | b        | {a: 0, b: 1}            | 0       | "ab"           | 2      | 2           |
+| 3    | 2     | c        | {a: 0, b: 1, c: 2}      | 0       | "abc"          | 3      | 3           |
+| 4    | 3     | a        | {a: 3, b: 1, c: 2}      | 1       | "bca"          | 3      | 3           |
+| 5    | 4     | b        | {a: 3, b: 4, c: 2}      | 2       | "cab"          | 3      | 3           |
+| 6    | 5     | c        | {a: 3, b: 4, c: 5}      | 3       | "abc"          | 3      | 3           |
+| 7    | 6     | b        | {a: 3, b: 6, c: 5}      | 5       | "cb"           | 2      | 3           |
+| 8    | 7     | b        | {a: 3, b: 7, c: 5}      | 7       | "b"            | 1      | 3           |
+
+---
+
+#### Output:
+```plaintext
+maxLength = 3
+```
+
+---
+
+### **Key Insights**
+1. **Sliding Window:** The `start` pointer adjusts dynamically to maintain a valid substring.
+2. **Hash Map:** Tracks the last occurrence of each character efficiently, avoiding the need for nested loops.
+3. **Efficient Updates:** Both `start` and `end` pointers move forward, ensuring \( O(n) \) time complexity.
+
+This approach handles the problem constraints effectively and ensures correctness for all edge cases.

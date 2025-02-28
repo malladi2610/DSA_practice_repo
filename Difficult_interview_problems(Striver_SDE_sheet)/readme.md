@@ -114,3 +114,12 @@ You will give me problems to work on, and I will adhere strictly to these instru
 - [Date  9/01/25](Write day) - Longest_substring_w_o_repetition, count_subarray_with_given_xor_k
 - [Date  10,11,12] - *Didn't do anything*
 - [Date  13/01/25](Code day) - Solved two array problems
+- [Date  14/01/25 - 17/01/25] - *Didn't do anything*
+- [Date  18/01/25] - Finished the concept of arrays and ready for next datastructures
+
+
+For linkedlist problems refer to that particular folder: 
+
+- [Date 28/01/25](Write day) - Reverse the given singly linkedlist and find the middle node of the linked list
+- [Date 02/02/25](Code day) - Solved one problem in the above written during the write day
+- [Date 28/02/25](Code day) - Merge linked list 
