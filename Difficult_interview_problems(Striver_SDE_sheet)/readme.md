@@ -122,4 +122,6 @@ For linkedlist problems refer to that particular folder:
 
 - [Date 28/01/25](Write day) - Reverse the given singly linkedlist and find the middle node of the linked list
 - [Date 02/02/25](Code day) - Solved one problem in the above written during the write day
-- [Date 28/02/25](Code day) - Merge linked list 
+- [Date 28/02/25](Write day) - Merge linked list 
+- [Date 02/03/25](Write day) - Remove the nth element from the linkedlist
+- [Date 05/03/25](Write day) - Add the elements of the two linked lists
