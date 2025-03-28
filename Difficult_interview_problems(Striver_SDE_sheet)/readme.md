@@ -125,3 +125,11 @@ For linkedlist problems refer to that particular folder:
 - [Date 28/02/25](Write day) - Merge linked list 
 - [Date 02/03/25](Write day) - Remove the nth element from the linkedlist
 - [Date 05/03/25](Write day) - Add the elements of the two linked lists
+- [Date 06/03/25 - 12/0325](Write day) - Delete a node from the list without having access to head & linked list cycle
+- [Date 13/03/2025](Code day) - Solved merge kth sorted array and cycle presense in LL
+- [Date 19/03/2025] - Solved the Merged two linkedlist and the Detecting the cycle in the linked list
+- [Date 23/03/2025] - Solved the reordered list problem 
+
+For array problem refer to that particular folder:
+
+- [Date 28/03/2025] - (Write day) Best Time to Buy and Sell Stock - Problem 21 in arrays folder
