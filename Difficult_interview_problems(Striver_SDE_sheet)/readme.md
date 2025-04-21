@@ -135,3 +135,6 @@ For array problem refer to that particular folder:
 - [Date 28/03/2025] - (Write day) Best Time to Buy and Sell Stock - Problem 21 in arrays folder
 - [Date 29/03/2025] - (Code day) Solved Time to Buy and Sell Stock - Problem 21 in arrays folder
 - [Date 05/04/2025] - (Write day) ContainsDuplicates & Product_array_except_self
+- [Date 06/04/2025] - (Code day) Solved ContainsDuplicates & Product_array_except_self
+- [Date 12/04/2025] - (Write day) Maximum Product Subarray
+- [Date 21/04/2025] - (Code day) Maximum product subarray
