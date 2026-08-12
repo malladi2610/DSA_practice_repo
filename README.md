@@ -2,6 +2,30 @@
 
 https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/
 
+## C++ setup
+
+This repository uses C++17 and CMake. On macOS, the installed Apple Clang
+compiler can build the practice programs.
+
+Configure, build, and run the setup check from the repository root:
+
+```sh
+cmake -S . -B build
+cmake --build build
+./build/hello_world
+```
+
+Expected output:
+
+```text
+Hello, DSA practice!
+```
+
+Build artifacts belong in `build/` and are not committed to Git. New solutions
+should prefer the standard headers they use (such as `<iostream>`, `<vector>`,
+and `<algorithm>`) instead of `<bits/stdc++.h>`, which is not portable to the
+default macOS compiler.
+
 <!-- Animation of the progress -->
 <!-- 1. Start with a journey of a guy from 2021, failed in one month, in 2022 failed in one month, in 2023 (Nov) struggled to do and succeded in 2024 -->
 
@@ -183,6 +207,5 @@ https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2
 g++ -o problem_<number>.exe problem_<number>.cpp -->
 
 <!-- Difficult problems from the interview taken from the striver in te difficult problem folder -->
-
 
 

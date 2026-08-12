@@ -2,3 +2,9 @@
 input.txt
 output.txt
 sys.txt
+
+# Local C++ build output
+build/
+*.exe
+*.out
+.DS_Store
